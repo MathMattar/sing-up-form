@@ -1,6 +1,6 @@
 'use client'
 
-import { Box, Flex } from "@chakra-ui/react";
+import { Box, Button, Flex } from "@chakra-ui/react";
 import FormInput from "../FormInput/page";
 import { useState } from "react";
 
@@ -46,7 +46,9 @@ export default function Form() {
           error={isPasswordError}
           errorMessage="The password must contain an uppercase and lowercase letter, a number and a special character"
           onChange={(e) => setPassword(e.target.value)} />
+
+        <Button colorScheme='whatsapp'>Claim your free trial</Button>
       </Flex>
-    </Box>
+    </Box >
   )
 }
