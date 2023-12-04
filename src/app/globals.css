@@ -18,6 +18,8 @@ body {
   font-weight: var(--defaul-size);
   background: url(../../public/background-desktop.png) no-repeat center / cover;
   background-color: var(--background-color);
+  display: flex;
+  align-items: center;
   padding: 121px 165px;
   width: 100%;
   min-height: 100vh;
