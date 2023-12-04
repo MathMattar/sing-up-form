@@ -1,0 +1,14 @@
+.text {
+  color: var(--terms-and-services-color);
+  margin-top: 8px;
+}
+
+.link {
+  color: var(--background-color);
+}
+
+.text,
+.link {
+  font-size: var(--desktop-terms-font);
+  line-height: var(--desktop-terms-line-heigth);
+}

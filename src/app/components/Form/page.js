@@ -1,8 +1,9 @@
 'use client'
 
-import { Box, Button, Flex } from "@chakra-ui/react";
+import { Box, Button, Flex, Link } from "@chakra-ui/react";
 import FormInput from "../FormInput/page";
 import { useState } from "react";
+import styles from './Form.module.css';
 
 export default function Form() {
   const [firstName, setFirstName] = useState('')
@@ -49,6 +50,7 @@ export default function Form() {
 
         <Button colorScheme='whatsapp' >Claim your free trial</Button>
       </Flex>
+      <p className={styles.text}>By clicking the button, you are agreeing to our <strong className={styles.link}><Link href="https://#" >Terms and Services</Link></strong></p>
     </Box >
   )
 }
