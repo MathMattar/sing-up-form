@@ -1,0 +1,8 @@
+.heading {
+  font-size: var(--desktop-ballon-font);
+  font-weight: var(--desktop-ballon-line-heigth);
+  letter-spacing: var(--desktop-ballon-letter-spacing);
+  color: var(--font-color);
+  text-align: center;
+  box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+}

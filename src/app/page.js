@@ -1,6 +1,7 @@
 import { Box, Flex } from "@chakra-ui/react";
 import Form from "./components/Form/page";
 import styles from './page.module.css';
+import Ballon from "./components/Ballon/page";
 
 export default function Home() {
   return (
@@ -14,7 +15,10 @@ export default function Home() {
             </p>
           </Flex>
         </Box>
-        <Form />
+        <Flex flexDir={'column'} rowGap='24px'>
+          <Ballon />
+          <Form />
+        </Flex>
       </Flex>
     </Box>
   )

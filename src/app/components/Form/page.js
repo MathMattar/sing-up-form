@@ -17,7 +17,7 @@ export default function Form() {
 
 
   return (
-    <Box bg='white' p='40px' borderRadius='10px' w='540px'>
+    <Box bg='white' p='40px' borderRadius='10px' w='540px' boxShadow='base' p='6' rounded='md' >
       <Flex flexDir={'column'} rowGap='20px'>
         <FormInput
           type="text"
@@ -47,7 +47,7 @@ export default function Form() {
           errorMessage="The password must contain an uppercase and lowercase letter, a number and a special character"
           onChange={(e) => setPassword(e.target.value)} />
 
-        <Button colorScheme='whatsapp'>Claim your free trial</Button>
+        <Button colorScheme='whatsapp' >Claim your free trial</Button>
       </Flex>
     </Box >
   )
