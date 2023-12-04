@@ -1,5 +1,6 @@
 import { Box, Flex } from "@chakra-ui/react";
 import Form from "./components/Form/page";
+import styles from './page.module.css';
 
 export default function Home() {
   return (
@@ -7,8 +8,8 @@ export default function Home() {
       <Flex flexDir={'row'} wrap={'wrap'} justify={"space-between"} align={'center'} columnGap='45px' >
         <Box w='525px'>
           <Flex flexDir={'column'} rowGap='32px'>
-            <h1>Learn to code by watching others</h1>
-            <p>
+            <h1 className={styles.heading}>Learn to code by watching others</h1>
+            <p className={styles.body}>
               See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.
             </p>
           </Flex>

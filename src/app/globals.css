@@ -5,7 +5,14 @@
   --medium: 500;
   --semibold: 600;
   --bold: 700;
-  --background-color: #FF7979
+  --background-color: #FF7979;
+
+  --desktop-heading-font: 50px;
+  --desktop-heading-letter-spacing: -0.52px;
+  --desktop-heading-line-heigth: 55px;
+  --font-color: #FFF;
+
+  --desktop-body-line-heigth: 26px;
 }
 
 * {

@@ -1,0 +1,16 @@
+.heading {
+  font-size: var(--desktop-heading-font);
+  font-weight: var(--bold);
+  letter-spacing: var(--desktop-heading-letter-spacing);
+  line-height: var(--desktop-heading-line-heigth);
+}
+
+.body {
+  font-weight: var(--medium);
+  line-height: var(--desktop-body-line-heigth);
+}
+
+.heading,
+.body {
+  color: var(--font-color);
+}
