@@ -5,6 +5,7 @@
   --medium: 500;
   --semibold: 600;
   --bold: 700;
+  --background-color: #FF7979
 }
 
 * {
@@ -13,7 +14,11 @@
 
 body {
   font-family: var(--font);
+  font-size: var(--defaul-size);
   font-weight: var(--defaul-size);
+  background: url(../../public/background-desktop.png) no-repeat center / cover;
+  background-color: var(--background-color);
+  padding: 121px 165px;
   width: 100%;
   min-height: 100vh;
 }
