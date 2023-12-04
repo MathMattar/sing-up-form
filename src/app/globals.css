@@ -18,6 +18,8 @@
   --desktop-ballon-letter-spacing: -0.27px;
   --desktop-ballon-line-heigth: 26px;
 
+  --desktop-terms-font: 11px;
+  --desktop-terms-line-heigth: 26px;
   --terms-and-services-color: #BAB7D4;
 }
 
@@ -36,4 +38,11 @@ body {
   padding: 121px 165px;
   width: 100%;
   min-height: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 8.8% 6.4% 6.8%;
+    flex-direction: column;
+  }
 }

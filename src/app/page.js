@@ -20,6 +20,6 @@ export default function Home() {
           <Form />
         </Flex>
       </Flex>
-    </Box>
+    </Box >
   )
 }
